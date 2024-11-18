@@ -1,0 +1,132 @@
+// app global css in SCSS form
+
+// Global form field styles
+.q-field--outlined .q-field__control {
+  border-radius: 8px;
+  border-width: 1px;
+  height: 44px;
+}
+
+.q-field--outlined .q-field__control:hover:before {
+  border-color: var(--q-primary);
+}
+
+// Card styles
+.q-card {
+  border-radius: 12px;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Button styles
+.q-btn {
+  border-radius: 8px;
+  height: 44px;
+
+  &--dense {
+    height: 32px;
+  }
+
+  &--round {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+// Spacing utilities
+.q-gutter-y-sm > * {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.q-gutter-sm > * {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.q-pa-sm {
+  padding: 6px;
+}
+
+.q-ma-sm {
+  margin: 6px;
+}
+
+// Form container styles
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+// Card section spacing
+.q-card__section {
+  padding: 16px;
+}
+
+// Table styles
+.q-table {
+  border-radius: 12px;
+  
+  th {
+    font-weight: 500;
+  }
+}
+
+// Input field icon colors
+.q-field__marginal {
+  color: var(--q-primary);
+}
+
+// Dialog styles
+.q-dialog__inner > div {
+  border-radius: 12px;
+}
+
+// Chip styles
+.q-chip {
+  border-radius: 16px;
+}
+
+// List item styles
+.q-item {
+  min-height: 48px;
+  padding: 8px 16px;
+}
+
+// Tab styles
+.q-tab {
+  min-height: 48px;
+}
+
+// Toolbar height
+.q-toolbar {
+  min-height: 56px;
+  padding: 0 12px;
+}
+
+// Loading overlay styles
+.q-loading {
+  .q-loading__backdrop {
+    background: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  .q-loading__message {
+    font-size: 1.2em;
+    margin-top: 1rem;
+  }
+}
+
+// Page transition animations
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}

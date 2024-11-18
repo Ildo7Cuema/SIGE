@@ -1,0 +1,40 @@
+{
+  "name": "sistema-gestao-escolar",
+  "description": "Sistema de Gestão Escolar com Quasar e Supabase",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.4",
+    "@stripe/stripe-js": "^2.2.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "chart.js": "^4.4.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.1",
+    "moment": "^2.29.4",
+    "quasar": "^2.9.2",
+    "stripe": "^14.7.0",
+    "swiper": "^8.4.7",
+    "vue": "^3.3.0",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.1.2",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
